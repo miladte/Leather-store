@@ -1,0 +1,31 @@
+$bg-dark:rgb(0, 0, 0);
+$color-text:white;
+$bg-red:red;
+$bg-blue:blue;
+$color-black:black;
+$bg-white:white;
+
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap ;
+    width: 100%;
+}
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+$icomoon-font-family: "karizma" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icon-mt-arrow: unquote('"\\e900"');
+$icon-mt-basket: unquote('"\\e901"');
+$icon-mt-Buy: unquote('"\\e92d"');
+$icon-mt-telegram: unquote('"\\e92e"');
+$icon-mt-instagram: unquote('"\\e92f"');
+$icon-mt-Heart: unquote('"\\e970"');
+$icon-mt-user: unquote('"\\e971"');
+$icon-mt-phon: unquote('"\\e972"');
+$icon-mt-search: unquote('"\\e97f"');
+$icon-mt-call: unquote('"\\e980"');
