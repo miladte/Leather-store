@@ -51,4 +51,9 @@
       }
   } );
 
+
+  window.addEventListener("load",function(){
+ document.querySelector(".loding-page").classList.add("loded")   
+});
+
   });
